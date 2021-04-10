@@ -8,13 +8,13 @@ license="Creative Commons"
 
 modId="combinetech"
 
-version="${file.jarVersion}"
+version="1.16.5-1.0.0"
 
 displayName="Combine Tech"
 
 logoFile="combinelogo.png"
 
-credits="_InterPlay_"
+credits="_InterPlay_, HammerStrike"
 
 authors="_InterPlay_"
 

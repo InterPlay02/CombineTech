@@ -38,7 +38,7 @@ public class CombineTech
         // Aqui ficou definido qual será o ícone da aba personalizada.
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(RegistryHandler.REACTOR_CORE.get());
+            return new ItemStack(RegistryHandler.MOD_ICON.get());
         }
     };
 }

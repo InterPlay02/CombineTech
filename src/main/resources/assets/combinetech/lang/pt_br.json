@@ -1,5 +1,5 @@
 {
-  "item.combinetech.reactor_core": "Núcleo do Reator",
-  "block.combinetech.ReactorCoreBlock" : "Núcleo do Reator",
+  "item.combinetech.mod_icon" : "Ícone do Mod",
+  "block.combinetech.reactor_core_block" : "Núcleo do Reator",
   "itemGroup.combineTechTab": "Combine Tech"
 }
