@@ -1,0 +1,43 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="Creative Commons"
+
+[[mods]]
+
+modId="combinetech"
+
+version="${file.jarVersion}"
+
+displayName="Combine Tech"
+
+logoFile="combinelogo.png"
+
+credits="_InterPlay_"
+
+authors="_InterPlay_"
+
+description='''
+A mod that adds the Combine Tech from Half-Life to Minecraft.
+'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[36,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

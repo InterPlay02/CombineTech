@@ -1,0 +1,5 @@
+{
+  "item.combinetech.reactor_core": "Núcleo do Reator",
+  "block.combinetech.ReactorCoreBlock" : "Núcleo do Reator",
+  "itemGroup.combineTechTab": "Combine Tech"
+}
