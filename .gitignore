@@ -4732,3 +4732,4 @@ run/.mixin.out/audit/mixin_implementation_report.txt
 run/.mixin.out/audit/mixin_implementation_report.csv
 LICENSE
 gradle/wrapper/gradle-wrapper.properties
+*.gz
