@@ -3,7 +3,7 @@ package com.InterPlay.CombineTech.util;
 import com.InterPlay.CombineTech.CombineTech;
 import com.InterPlay.CombineTech.blocks.BlockItems;
 import com.InterPlay.CombineTech.blocks.ReactorCoreBlock;
-import com.InterPlay.CombineTech.items.ItemBase;
+import com.InterPlay.CombineTech.items.ItemMain;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -28,7 +28,7 @@ public class RegistryHandler {
     // Para adicionar novos itens, basta copiar esta linha abaixo e alterar o nome em maiúsculo e o nome entre aspas.
     // Depois, basta copiar o arquivo json dentro de "models/blocks" ou de "models/items" e alterar o nome dentro e fora.
     // E, por último, adicionar a textura dentro de "textures/blocks" ou de "textures/items" com o nome igual ao que está nestas aspas aqui.
-    public static final RegistryObject<Item> MOD_ICON = ITEMS.register("mod_icon", ItemBase::new);
+    public static final RegistryObject<Item> MOD_ICON = ITEMS.register("mod_icon", ItemMain::new);
 
     // Blocos
     // Dentro do <> deve-se colocar a classe da qual esta está extendendo as funcionalidades.
