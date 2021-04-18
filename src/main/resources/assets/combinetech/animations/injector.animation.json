@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.injector.mekanism": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"EngrenagemBack": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, -89.5]
+						}
+					}
+				},
+				"EngrenagemMid": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 84.5]
+						}
+					}
+				},
+				"EngrenagemFront": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, -89.5]
+						}
+					}
+				}
+			}
+		},
+		"animation.injector.GrandeFrente": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2,
+			"bones": {
+				"GrandeFrente": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 6]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,5 +1,6 @@
 {
   "item.combinetech.mod_icon" : "Mod Icon",
   "block.combinetech.reactor_core_block": "Reactor Core",
+  "block.combinetech.shield_injector": "Shield Injector",
   "itemGroup.combineTechTab": "Combine Tech"
 }

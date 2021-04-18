@@ -1,0 +1,12 @@
+Args: "--task", "SRG_TO_MCP", "--input", "C:\Users\Rodrigo NDS\.gradle\caches\modules-2\files-2.1\software.bernie.geckolib\geckolib-forge-1.16.5\3.0.30\dc749719cd586255b2ef6abcdf56226ded30d151\geckolib-forge-1.16.5-3.0.30.jar", "--output", "C:\Users\Rodrigo NDS\.gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.16.5\3.0.30_mapped_official_1.16.5\geckolib-forge-1.16.5-3.0.30_mapped_official_1.16.5.jar", "--mcp", "C:\Users\Rodrigo NDS\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.16.5\mapping-1.16.5-mapping.zip", "--strip-signatures"
+Classpath: C:\Users\Rodrigo NDS\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.1.10\installertools-1.1.10-fatjar.jar
+WorkDir: C:\Users\Rodrigo NDS\Documents\Projetos Salvos\Minecraft\Mod Creation\CombineTech\build\_RenameSrg2Mcp_-1036150239
+Main: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Rodrigo NDS\.gradle\caches\modules-2\files-2.1\software.bernie.geckolib\geckolib-forge-1.16.5\3.0.30\dc749719cd586255b2ef6abcdf56226ded30d151\geckolib-forge-1.16.5-3.0.30.jar
+Output: C:\Users\Rodrigo NDS\.gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.16.5\3.0.30_mapped_official_1.16.5\geckolib-forge-1.16.5-3.0.30_mapped_official_1.16.5.jar
+MCP:    C:\Users\Rodrigo NDS\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.16.5\mapping-1.16.5-mapping.zip
+Loading MCP Data
+Stripped Manifest of sha digests
+Process complete
