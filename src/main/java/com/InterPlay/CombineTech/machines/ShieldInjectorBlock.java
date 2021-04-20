@@ -1,5 +1,7 @@
 package com.InterPlay.CombineTech.machines;
 
+import com.InterPlay.CombineTech.models.ShieldInjectorModel;
+import com.InterPlay.CombineTech.tileentities.renderer.ShieldInjectorRenderer;
 import com.InterPlay.CombineTech.util.RegistryHandler;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
@@ -34,6 +36,10 @@ public class ShieldInjectorBlock extends Block {
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
         return RegistryHandler.TILE_ENTITY_SHIELD_INJECTOR.get().create();
         // Termina com "create" pra criar a tile entity
+    }
+
+    public ShieldInjectorRenderer shieldInjectorRenderer(ShieldInjectorModel shieldInjectorModel) {
+        return shieldInjectorRenderer(new ShieldInjectorModel());
     }
 
 }

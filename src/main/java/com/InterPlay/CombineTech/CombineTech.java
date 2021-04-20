@@ -18,15 +18,18 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import software.bernie.geckolib3.GeckoLib;
 
-@Mod("combinetech")
+@Mod("combinetech") // Aqui estou referenciando o que foi definido, em relação a como seria o meu MOD_ID
+// Isto aqui é um método construtor. Toda classe tem que ter um. O próprio IDE já cria um ao criar uma nova classe.
+// Todo método precisa retornar algo. Neste caso aqui, tudo que vai dentro dele é o que será "retornado".
 public class CombineTech
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "combinetech"; // Aqui eu determinei que o meu MOD_ID será "combinetech"
 
-    // Esse método é o que faz o mod realmente iniciar.
+    // Isto aqui é um método. Métodos podem ter argumentos dentro dos parênteses ou não.
+    // Esta aqui em específico é o que faz o mod realmente iniciar.
     public CombineTech() {
-        // Aqui estou apenas dizendo que o
+        // Aqui estou apenas dizendo que a Interface, chamada "IEventBus", será o que
         // IEventBus, chamado "bus", se refere ao Forge mod loading context e que ele está buscando
         // pelo Event bus que tem lá.
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -38,6 +41,7 @@ public class CombineTech
         // Aqui estou iniciando todas as tile entities que foram registradas e que fizeram referência ao
         // DeferredRegister chamado TILE_ENTITY_TYPE, presente da classe que lida com registros.
         RegistryHandler.TILE_ENTITY_TYPE.register(bus);
+        // Aqui estou chamando o método que inicializa as funcionalidades do Geckolib.
         GeckoLib.initialize();
 
         MinecraftForge.EVENT_BUS.register(this);
