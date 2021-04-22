@@ -43,7 +43,7 @@ public class RegistryHandler {
     public static final RegistryObject<Block> REACTOR_CORE_BLOCK = BLOCKS.register("reactor_core_block", ReactorCoreBlock::new);
     // Aqui estou registrando o injetor de escudo para o reator. Requer um nome de registro e um suplier (fornecedor).
     // Colocar "() ->" transformou a classe "ShieldInjectorBlock" num fornecedor. O new criou este fornecedor.
-    public static final RegistryObject<Block> SHIELD_INJECTOR = BLOCKS.register("shield_injector", () -> new ShieldInjectorBlock());
+    public static final RegistryObject<Block> SHIELD_INJECTOR = BLOCKS.register("shield_injector", ShieldInjectorBlock::new);
 
     // Bloco-Item
     // Registra os blocos quando estão em sua mão, no formato de item.
@@ -58,7 +58,10 @@ public class RegistryHandler {
     // Todas as outras tile entities devem fazer referência a ele no futuro, ao serem criadas.
     public static final DeferredRegister<TileEntityType<?>> TILE_ENTITY_TYPE = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, CombineTech.MOD_ID);
 
-    // Aqui eu registrei o injetor de escudo
+    // Aqui estou adicionando ao registro de objeto um tipo de tile entity "injetor de escudo", com o nome TILE_ENTITY_SHIELD_INJECTOR
+    // Depois estou dizendo para registrá-la na lista de tipos de tile entity com o nome "em verde" e acionei o
+    // construtor de tipos de tile entities. Após isso mostrei pra ele uma referência à classe que corresponde à ese tipo de tile entity que estou criando,
+    // mostrei pra ele o registro da classe e falei pra ele construir.
     // É necessário já ter criado a classe que extende TileEntity \/     nome da variável \/              \/  referência ao DeferredRegister
     public static final RegistryObject<TileEntityType<ShieldInjectorTE>> TILE_ENTITY_SHIELD_INJECTOR = TILE_ENTITY_TYPE
             // Nome de registro \/ que aparece no arquivo lang.    Isso aqui /\ é necessário ser colocado na classe do bloco
